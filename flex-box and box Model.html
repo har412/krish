@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box and box model</title>
+    
+    <style>
+    .outer_box{
+        width: 400px;
+        height: 400px;
+        background: red;
+        padding: 10px 20px;
+        margin:20px 60px;
+    }
+    .inner_box{
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        width: 100%;
+        justify-content: center;
+        border: 2px solid red;
+    }
+    li{
+        margin:10px 20px;   
+    }
+</style>
+</head>
+<body>
+    
+    <!-- BOX MODEL  -->
+
+    <!-- Box Model is a concept of 2 parameters
+    1. Margin
+    2, Padding
+    3.border
+
+    Margin ==> its the outer spacing given to a box 
+    Padding ==> its the spacing added inside the box
+    Border ==> its the outline of the blox
+    -->
+        <div class="outer_box">
+            <div class="inner_box">
+
+            </div>  
+        </div>
+
+        <!-- Responsive website ==> website which work on mobile phone as well and diffrent screen sizes . -->
+
+        <!-- Flex Box -->
+        <!-- Flexbox is a utiity used for formatting the html css in a better way  -->
+        <!-- so align things horizonatlly  we use justify-content:center; -->
+        <!-- to ali gns vertically we use align-items:center -->
+
+        <ul>
+            <li>bread</li>
+            <li>Butter</li>
+            <li>Curd</li>
+        </ul>
+
+
+
+
+
+        
+</body>
+</html>
